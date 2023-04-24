@@ -1,8 +1,7 @@
-# Carros e Variáveis
-Versão: 1.0
+# Carros com Construtores
+Versão: 2.0
 
-Status do Projeto:  ⚠️ Espera
-
+Status do Projeto:  ✔️ Concluído
 ## Tópicos
 🔹 [Descrição do projeto](https://github.com/GatoEstunado/Carros#descri%C3%A7%C3%A3o-do-projeto-%EF%B8%8F)
 
@@ -32,12 +31,14 @@ Status do Projeto:  ⚠️ Espera
 
 
 ### Descrição do Projeto 🧾✏️
-Código para gerar diferentes carros, com o uso de "Classes".
+Código para gerar diferentes carros, com o uso de "Classes" e com o uso de "Construtores".
 
 
 
 ### Funcionalidades ⚙️
 ✔️ Funcionalidade 1
+✔️ Funcionalidade 2
+
 
 
 
@@ -58,6 +59,7 @@ Um leitor de linguagens de programação, sendo a utilizada aqui a C++.
 Basta rodar a aplicação e seguir as instruções por ela dadas.
 
 O projeto serve para calcular a área de triângulos e compará-los.
+Assim como os comentários.
 
 
 
@@ -89,7 +91,7 @@ Não houveram demais delongas no desenvolvimento do projeto.
 
 
 ### Recursos de inseridos 🧰
-O projeto ainda está em andamento.
+Todos os recursos dele foram inseridos.
 
 
 
