@@ -1,7 +1,7 @@
 # Carros e Variáveis
 Versão: 1.0
 
-Status do Projeto:  ⚠️ Espera
+Status do Projeto:  ✔️ Concluído
 
 ## Tópicos
 🔹 [Descrição do projeto](https://github.com/GatoEstunado/Carros#descri%C3%A7%C3%A3o-do-projeto-%EF%B8%8F)
