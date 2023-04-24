@@ -35,3 +35,7 @@ int main() {
     cout << Carro2.Modelo << endl;
     cout << Carro2.VelMax << endl;
 }
+
+void Carro::Buzinar () {
+    cout << "Bi, Bii!!" << endl;
+}
