@@ -1,36 +1,49 @@
-// Bibliotecas
 #include <iostream>
 using namespace std;
 
-// Criar a "Classe", Classe Carro
+// Criar a classe "Carro", e as váriaveis de forma "pública"
 class Carro {
-    // Variáveis, "públicas"
     public:
-    string color;
-    string modelo;
+    
+    string Cor;
+    string Modelo;
     float VelMax;
-    void buzinar();
+    
+    // Método
+    void Buzinar();
+    
+    // Definir um padrão para a "Forma de bolo"
+    Carro() {
+        Cor = "Amarelo";
+        Modelo = "Camaro";
+        VelMax = 220.f;
+    }
 };
 
-// Programa pricipal
+// Programa principal
 int main() {
-    // Criar uma subclasse através da "Classe Carro", MeuCarro
+    // Um carro gerado pelo usuário e um que será gerado pela "forma de bolo"
     Carro MeuCarro;
+    Carro Carro2;
     
-    // As variáveis da subclasse
-    MeuCarro.color = "Preto";
-    MeuCarro.modelo = "Opala";
-    MeuCarro.VelMax = 200.0f;
+    // Definições do carro "MeuCarro"
+    MeuCarro.Cor = "Branco";
+    MeuCarro.Modelo = "Fusca";
+    MeuCarro.VelMax = 150.f;
     
     // Interface do usuário
-    MeuCarro.buzinar();
-    cout << "Seu novo carro é um: " << MeuCarro.modelo << endl;    
-    cout << "A cor dele é: " << MeuCarro.color << endl;
-    cout << "Ele chega a: " << MeuCarro.VelMax << " km/h" << endl;
+    MeuCarro.Buzinar();
+    cout << MeuCarro.Cor << endl;
+    cout << MeuCarro.Modelo << endl;
+    cout << MeuCarro.VelMax << endl;
+    
+    Carro2.Buzinar();
+    cout << Carro2.Cor << endl;
+    cout << Carro2.Modelo << endl;
+    cout << Carro2.VelMax << endl;
 }
 
-// Método
-void Carro::buzinar() {
-    cout << "Bi, Biii!" << endl;
+// Método e o que ele irá realizar
+void Carro::Buzinar () {
+    cout << "Bi, Bii!!" << endl;
 }
-
